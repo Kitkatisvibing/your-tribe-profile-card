@@ -32,7 +32,7 @@ article {
   border-radius: 1rem;
   background: rgb(9, 255, 0);
   background: linear-gradient(0deg, rgb(166, 0, 255) 40%, rgb(9, 255, 0) 100%);
-  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.205);
+  box-shadow: 0 0 25px 25px rgba(87, 1, 87, 0.378);
   transition: .25s;
 }
 
@@ -89,7 +89,7 @@ img {
   height: auto;
   border: 5px solid #ffcd45;
   border-radius: 10em;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  box-shadow: 0 0 4px 4px rgba(98, 10, 2, 0.355);
   transition: .25s .15s;
 }
 
