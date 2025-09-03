@@ -1,4 +1,6 @@
 body{
+    height: 100%;
+    overflow: hidden;
     text-align: center;
     background-image: url(../assets/backgroundtile.gif);
     background-repeat: repeat;
@@ -12,7 +14,7 @@ body{
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 0px;
-    max-height: 600px;
+    max-height: 650px;
 }
 
 .left{
@@ -36,4 +38,15 @@ main{
     grid-area: 1 / 5 / 6 / 6;
     border: solid;
     overflow: auto;
+}
+
+.links{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: table;
+    margin: 0;
+    text-align: center;
 }
