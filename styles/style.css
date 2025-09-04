@@ -126,4 +126,8 @@ ul{
     main{
         overflow: auto;
     }
+
+    .mypic{
+        margin: 0%;
+    }
 }
