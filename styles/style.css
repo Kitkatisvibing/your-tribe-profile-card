@@ -23,7 +23,7 @@ body{
     border: solid;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     overflow: auto;
 }
 
@@ -31,6 +31,26 @@ main{
     background-image: url(../assets/backgroundtext.gif);
     grid-area: 1 / 2 / 6 / 5; 
     border: solid;
+}
+
+.mypic{
+    margin-top: 10%;
+    --s: 20px;  /* control the size of the wave */
+    --w: 300px; /* preferred image width */
+  
+    width: round(var(--w),4*var(--s)); 
+    aspect-ratio: 1;
+    padding: var(--s);
+    border: var(--s) solid #0000;
+    box-sizing: border-box;
+    background: conic-gradient(#a252cd,#4eaa74,#b252cd) border-box;
+    border-radius: calc(3.5*var(--s)); 
+    mask: 
+        radial-gradient(calc(sqrt(2)*var(--s)),#000 calc(100% - 1px),#0000),
+        conic-gradient(#000 0 0) content-box,
+        radial-gradient(calc(sqrt(2)*var(--s)),#0000 100%,#000 calc(100% + 1px)) 
+        var(--s) var(--s) padding-box;
+        mask-size: calc(var(--s)*4) calc(var(--s)*4);
 }
 
 .right{
