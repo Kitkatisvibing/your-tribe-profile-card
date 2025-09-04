@@ -104,3 +104,18 @@ ul{
     margin: 0;
     text-align: center;
 }
+
+@media (max-width: 700px) {
+    body{
+        overflow: auto;
+    }
+
+    .container{
+        margin: 0;
+        max-height: none;
+    }
+
+    main{
+        overflow: auto;
+    }
+}
